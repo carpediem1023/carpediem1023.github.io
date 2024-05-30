@@ -30,7 +30,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 
 # Build settings
-theme: Cayman
+#theme: Cayman
+remote_theme: Time machine
 plugins:
   - jekyll-feed
 
