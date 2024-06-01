@@ -35,8 +35,8 @@ email: thedevslot@gmail.com
 #spotify_username: /
 
 # Google Analytics
-google-analytics: UA-163806439-1
-
+#google-analytics: UA-163806439-1
+google-analytics: G-0NYJ1V62D3
 # Disqus
 #disqus-shortname: thedevslot
 disqus-shortname: carpediem-2
