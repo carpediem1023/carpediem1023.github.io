@@ -38,8 +38,8 @@ email: thedevslot@gmail.com
 google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
-
+#disqus-shortname: thedevslot
+disqus-shortname: carpediem-2
 # Name of the Author
 author-name: carpediem
 # URL for the Image of the Author
