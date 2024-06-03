@@ -27,7 +27,7 @@
 
             <!--Link Section-->
             <div class="column has-text-white">
-                <h3>More Links</h3>
+                <h3>更多链接</h3>
                 {% for sitepage in site.html_pages offset: 4 %}
                 {% unless sitepage.url == '/'  limit: 2 %}
                 <li>
@@ -42,7 +42,7 @@
 
             <!--Blog-post Section-->
             <div class="column has-text-white">
-                <h3>Recent Posts</h3>
+                <h3>最近更新</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
                 <li>
                     <a href="{{post.url | absolute_url}}">{{post.title}}</a>
@@ -52,6 +52,6 @@
         </div>
     </div>
     <div class="has-background-black has-text-centered has-text-white" id="credits">
-        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} | <a href="https://github.com/thedevslot/WhatATheme" target="_blank" rel="noopener noreferrer">WhatATheme</a> - A Theme made with <i class="fas fa-heart has-text-danger"></i> by <a href="https://www.twitter.com/thedevslot" target="_blank" rel="noopener noreferrer">TheDevsLot</a> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+        本站由<a href="https://jekyllrb.com/" target="_blank">Jekyll</a>生成，采用<a href="https://github.com/thedevslot/WhatATheme" target="_blank" rel="noopener noreferrer">whatAtheme</a>主题， carpediem保留部分权利 
     </div>
 </footer>
