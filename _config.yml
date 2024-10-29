@@ -9,8 +9,9 @@ baseurl:
 # Title of the Site
 title: 无限游戏
 # Description of the Site
-description: you are a soul, you have a body.
-# URL of Image of the Site
+#description: you are a soul, you have a body.
+description: feedId:74094079936180224+userId:67887441389773824
+# URL of Image of the Site  
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
