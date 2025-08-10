@@ -58,7 +58,7 @@ sass:
 
 # Build settings
 plugins:
- # - jekyll-admin
+  - jekyll-admin
   - jekyll-feed
 
 # Permalink
