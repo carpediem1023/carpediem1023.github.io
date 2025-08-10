@@ -47,7 +47,7 @@ layout: compress
             {% assign words = content | number_of_words %}
             {%- unless content.size == 0 -%}
             <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
-                {{ number_of_words}} min
+                {{ content.size }} min
               </b>READ</p>
             {%- endunless -%}
           </div>
